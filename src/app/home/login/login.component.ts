@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       console.log(email, password)
 
       if (email == "admin@123" && password == "admin@123") {
-        this.router.navigateByUrl('/admin');
+        this.router.navigateByUrl('/admin/adminhome');
         this.user.setUser({
           name: 'Admin',
           mobileNumber: email,
